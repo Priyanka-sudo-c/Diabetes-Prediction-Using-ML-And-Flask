@@ -1,0 +1,50 @@
+Here's what each of these libraries is used for in machine learning (ML):
+
+1. NumPy (numpy)
+Used for numerical computing.
+Provides support for arrays, matrices, and mathematical functions.
+Helps in handling large datasets efficiently.
+2. Pandas (pandas)
+Used for data manipulation and analysis.
+Provides data structures like DataFrames and Series.
+Helps in reading, writing, and cleaning datasets.
+3. Seaborn (seaborn)
+Used for statistical data visualization.
+Built on top of Matplotlib.
+Provides visualizations like heatmaps, pair plots, and box plots for exploratory data analysis (EDA).
+4. Statsmodels (statsmodels.api)
+Used for statistical modeling and hypothesis testing.
+Helps in linear regression, time series analysis, and ANOVA.
+5. Matplotlib (matplotlib.pyplot)
+Used for creating static, animated, and interactive visualizations.
+Helps in plotting graphs, histograms, scatter plots, and more.
+6. Scikit-learn (sklearn)
+This is a major library for machine learning, and the imported modules serve specific purposes:
+
+Preprocessing
+scale, StandardScaler: Standardizes features by removing the mean and scaling to unit variance.
+Model Selection
+train_test_split: Splits datasets into training and testing sets.
+GridSearchCV: Performs hyperparameter tuning using cross-validation.
+cross_val_score: Computes cross-validated performance scores.
+KFold: Implements K-Fold cross-validation for model evaluation.
+Metrics
+confusion_matrix: Evaluates classification model performance.
+accuracy_score: Computes accuracy of classification models.
+mean_squared_error, r2_score: Used for regression model evaluation.
+roc_auc_score, roc_curve: Measures performance of classification models using the ROC curve.
+classification_report: Provides precision, recall, F1-score, and support metrics.
+Machine Learning Models
+LogisticRegression: Used for binary classification problems.
+KNeighborsClassifier: Implements the K-Nearest Neighbors (KNN) algorithm.
+SVC: Support Vector Classification (SVM model).
+MLPClassifier: Multi-layer Perceptron (Neural Network).
+DecisionTreeClassifier: Decision tree algorithm for classification.
+RandomForestClassifier: Ensemble learning model using multiple decision trees.
+GradientBoostingClassifier: Boosting-based ensemble learning classifier.
+7. Warnings (warnings)
+Used to suppress warnings in the notebook to avoid unnecessary output.
+8. Visualization Settings
+sns.set(): Applies Seaborn’s default themes for plots.
+plt.style.use("ggplot"): Uses the "ggplot" style for Matplotlib plots, improving aesthetics.
+This setup is commonly used for data preprocessing, visualization, model building, evaluation, and tuning in ML projects. 🚀
